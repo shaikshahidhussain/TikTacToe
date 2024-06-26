@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIK-TAC-TOE</title>
+    <link rel="stylesheet" href="tik-tak-toe.css">
+</head>
+<body>
+    <header>
+        <div class="msg-container hide">
+            <p id ="msg">Winner</p> 
+            <button id="newBtn">New Game</button>
+        
+        </div>
+        <div class="welcomeNote">
+            <h2 >Welcome To</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1>TIC-TAK-TOE <br>GAME</h1>
+            </div>
+            
+            <div class="game">
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+                <button class="box x o"></button>
+            </div>
+        </div>
+        <div>
+            <button class="reset">Reset Game</button>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="images/music-icon.png"  id ="music-icon" alt="music-icon">
+            
+        </div>
+        <audio id="o-sound" src="music/o-sound.mp3"></audio>
+        <audio id="x-sound" src="music/x-sound.mp3"></audio>
+        <audio id="reset-sound" src="music/reset-sound.mp3"></audio>
+        <audio id="bg-music" src="music/background-sound.mp3" loop ></audio>
+    </footer>
+    <script src="tik-tak-toe.js"></script>
+</body>
+</html>
